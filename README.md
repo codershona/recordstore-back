@@ -11,6 +11,7 @@
 * NOTES :
 ```
     - rails new recordstore-back --api ;
+    - Add gems into gemfile ;
     - 
 
 ```
