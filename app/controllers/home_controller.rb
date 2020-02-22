@@ -1,9 +1,13 @@
 class HomeController < ApplicationController
 
 
-def index
+  def index
 
-end	
+    @artists = Artist.all
+    
+    render json: @artists
+
+  end
 
 
 end

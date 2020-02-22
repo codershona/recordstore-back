@@ -21,6 +21,6 @@
     - rails g scaffold Record title:string year:string artist:references user:references  ;
     - rails db:migrate ;
     - rails g controller signup create ;
-    - 
+    - rails c (  Artist.create!(name: "AC/DC") , Artist.create!(name: "Christian dior"), Artist.all,  ) ;
 
 ```
