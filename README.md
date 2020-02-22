@@ -20,6 +20,7 @@
     - rails db:migrate ;
     - rails g scaffold Record title:string year:string artist:references user:references  ;
     - rails db:migrate ;
+    - rails g controller signup create ;
     - 
 
 ```
