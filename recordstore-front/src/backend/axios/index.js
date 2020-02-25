@@ -52,3 +52,4 @@ securedAxiosInstance.interceptors.response.use(null, error => {
 })
 
 export { securedAxiosInstance, plainAxiosInstance }
+

@@ -7,8 +7,8 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwindcss/preflight";
- */
+ * @import "tailwindcss/preflight";*/
+ 
 @tailwind preflight;
 
 /**
@@ -16,12 +16,12 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwindcss/components";
- */
+ * @import "tailwindcss/components";*/
+ 
 @tailwind components;
 
-/**
- * Here you would add any of your custom component classes; stuff that you'd
+
+ /** Here you would add any of your custom component classes; stuff that you'd
  * want loaded *before* the utilities so that the utilities could still
  * override them.
  *
@@ -33,8 +33,8 @@
  * Or if using a preprocessor or `postcss-import`:
  *
  * @import "components/buttons";
- * @import "components/forms";
- */
+ * @import "components/forms";*/
+ 
 
 .input {
   @apply appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight;
@@ -76,8 +76,8 @@
  *
  * If using `postcss-import`, use this import instead:
  *
- * @import "tailwindcss/utilities";
- */
+ * @import "tailwindcss/utilities";*/
+ 
 @tailwind utilities;
 
 /**
